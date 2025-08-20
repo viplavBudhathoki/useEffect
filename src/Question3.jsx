@@ -24,7 +24,7 @@ function Clocker(){
         <p>{time}</p>
         <button onClick={()=>{
             setRunning(!running)}}>
-                {!running ? "Resume" : "Pause"}
+                {running ? "Resume" : "Pause"}
             </button>
 
         </>
