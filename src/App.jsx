@@ -2,6 +2,7 @@ import Welcome from "./Question1";
 import Clock from './Question2';
 import Clocker from './Question3'
 import Joke from "./Question4";
+import WindowTracker from "./Question5";
 
 function App(){
 
@@ -11,6 +12,7 @@ function App(){
     <Clock/>
     <Clocker/>
     <Joke/>
+    <WindowTracker/>
     </>
   );
 }
