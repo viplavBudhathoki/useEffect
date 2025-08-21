@@ -4,6 +4,7 @@ import Clocker from './Question3'
 import Joke from "./Question4";
 import WindowTracker from "./Question5";
 import MouseTracker from "./Question6";
+import ClickTimer from "./Question7";
 
 function App(){
 
@@ -15,6 +16,7 @@ function App(){
     <Joke/>
     <WindowTracker/>
     <MouseTracker/>
+    <ClickTimer/>
     </>
   );
 }
