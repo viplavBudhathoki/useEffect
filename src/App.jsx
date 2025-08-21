@@ -3,6 +3,7 @@ import Clock from './Question2';
 import Clocker from './Question3'
 import Joke from "./Question4";
 import WindowTracker from "./Question5";
+import MouseTracker from "./Question6";
 
 function App(){
 
@@ -13,6 +14,7 @@ function App(){
     <Clocker/>
     <Joke/>
     <WindowTracker/>
+    <MouseTracker/>
     </>
   );
 }
